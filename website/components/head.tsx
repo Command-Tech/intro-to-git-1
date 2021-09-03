@@ -1,11 +1,11 @@
 import Head from "next/head";
 
 export default function Meta() {
-  const title = "CodeDay - Intro to Git/GitHub";
-  const description = "Learn the basics of Git/GitHub!";
-  const keywords = "codeday, github, hello world";
+  const title = "Command Tech - Intro to Git";
+  const description = "Learn the basics of Git!";
+  const keywords = "command tech, women in tech, non-binary in tech, github, hello world";
   const author = "";
-  const twitter = "@codeday";
+  const twitter = "@wecommandtech";
   //const image = "/ogimage.png"; // This is your OpenGraph image
   return (
     <Head>
@@ -26,13 +26,19 @@ export default function Meta() {
       <meta name="twitter:creator" content={twitter} />
       <link
         rel="preload"
-        href="/font/Sofia/Sofia Pro Regular Az.otf"
+        href="/font/Montserrat/Montserrat-Regular.ttf"
         as="font"
         crossOrigin=""
       />
       <link
         rel="preload"
-        href="/font/Sofia/Sofia Pro Bold Az.otf"
+        href="/font/Montserrat/Montserrat-SemiBold.ttf"
+        as="font"
+        crossOrigin=""
+      />
+      <link
+        rel="preload"
+        href="/font/Montserrat/Montserrat-Bold.ttf"
         as="font"
         crossOrigin=""
       />
